@@ -1,0 +1,37 @@
+.weather-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  .state-flag {
+    width: 60px;
+    height: 40px;
+    margin-right: 15px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+  }
+  h2 {
+    margin: 0;
+    color: #333;
+    font-size: 24px;
+  }
+  .chart-container {
+    margin-bottom: 20px;
+  }
+  .success-message {
+    color: #28a745;
+    text-align: center;
+  }
+  .loading-message {
+    color: #007bff;
+    text-align: center;
+  }

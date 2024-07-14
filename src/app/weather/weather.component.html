@@ -1,0 +1,12 @@
+<div class="weather-container">
+    <div class="header">
+        <img [src]="stateFlag" [alt]="stateName + ' flag'" class="state-flag">
+        <h2>{{ stateName }} Weather Forecast</h2>
+    </div>
+    <div class="chart-container">
+        <canvas #weatherChart></canvas>
+    </div>
+    @if (weatherService.forecast().length < 0) { <p class="loading-message">Loading forecast data...</p>
+
+        }
+</div>
